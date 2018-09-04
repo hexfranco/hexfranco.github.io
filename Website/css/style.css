@@ -1,0 +1,126 @@
+#rowTwoImg {
+	margin-left: 15px;
+	margin-bottom: 17px;
+	margin-top: 32px;
+}
+#rowThreeImg {
+	width: 140px;
+	height: 105px;
+	margin-left: 61px;
+}
+.sectionRight {
+	float: right;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-image: -webkit-linear-gradient(270deg,rgba(238,238,238,1.00) 0%,rgba(255,255,255,0.00) 76.16%);
+	background-image: -moz-linear-gradient(270deg,rgba(238,238,238,1.00) 0%,rgba(255,255,255,0.00) 76.16%);
+	background-image: -o-linear-gradient(270deg,rgba(238,238,238,1.00) 0%,rgba(255,255,255,0.00) 76.16%);
+	background-image: linear-gradient(180deg,rgba(238,238,238,1.00) 0%,rgba(255,255,255,0.00) 76.16%);
+	border-top-right-radius: 40px;
+	height: 28em;
+}
+#indexLargeVid {
+	margin-top: 80px;
+	margin-bottom: 40px;
+
+}
+footer {
+	font-size: small;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 12px;
+	width: 100%;
+	padding: 0.01em 16px;
+}
+body {
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(../images/bkgd.jpg);
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+}
+html {
+	background-color: #A9A9A9;
+	height: 100px;
+}
+h2 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;
+	font-family: alfa-slab-one;
+}
+h4 {
+	font-family: acme;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+}
+#indexHeading {
+	margin-top: 60px;
+}
+.img-responsive {
+	padding-left: 0px;
+	margin-left: 24px;
+}
+.navbar {margin-bottom: 0;}.bodyNewBkgd {
+	background-image: url(url);
+	background-color: rgba(255,255,255,1.00);
+}
+.bodySidesBkgd {
+	background-image: url(../images/backGroundTwo.png);
+}.imgAsidePosition {
+	margin-left: 63px;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
